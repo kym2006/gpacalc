@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    </head>
+    <body>
+        <form action="/calculate" method="GET">
+            <table>
+                <tr>
+                <th>Marks</th>
+                <th>Weightage</th>
+                </tr>
+                <tr>
+                <td><input name="mark1"></td>
+                <td><input name="weightage1"></td>
+                </tr>
+                <tr>
+                    <td><input name="mark2"></td>
+                    <td><input name="weightage2"></td>
+                </tr>
+                <tr>
+                    <td><input name="mark3"></td>
+                    <td><input name="weightage3"></td>
+                </tr>
+            </table>
+            <button>submit</button>
+        </form>
+          
+    </body>
+</html>
